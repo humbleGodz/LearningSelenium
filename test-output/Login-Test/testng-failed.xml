@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login-Test]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="selenium_maven_testng(failed)">
+    <classes>
+      <class name="orangeHRM.test.baseTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="InvalidLogin"/>
+          <include name="setup"/>
+          <include name="ValidLogin"/>
+        </methods>
+      </class> <!-- orangeHRM.test.baseTest -->
+    </classes>
+  </test> <!-- selenium_maven_testng(failed) -->
+</suite> <!-- Failed suite [Login-Test] -->
