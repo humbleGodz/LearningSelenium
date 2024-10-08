@@ -3,7 +3,7 @@
 <suite name="OrangeHRM">
   <test thread-count="5" name="QA">
     <classes>
-      <class name="orangeHRM.test.LoginTest"/>
+      <class name="orangeHRM.runner.LoginTest"/>
     </classes>
   </test> <!-- QA -->
 </suite> <!-- OrangeHRM -->

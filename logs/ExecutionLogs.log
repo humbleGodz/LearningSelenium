@@ -234,3 +234,123 @@
 07.10.2024 23:17:07,757 INFO  BaseTest:38 - Blank Login Test Case is Passed
 07.10.2024 23:17:08,005 INFO  BaseTest:34 - Chrome is shutting down.... 
 07.10.2024 23:17:08,006 INFO  BaseTest:35 - -----------------------------
+08.10.2024 01:14:40,991 INFO  BaseTest:29 - Running Chrome Setup.....
+08.10.2024 01:14:43,026 INFO  LoginPage:31 - The Username is: Admin
+08.10.2024 01:14:43,285 INFO  LoginPage:36 - The Password is: admin123
+08.10.2024 01:14:44,610 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 01:14:44,640 INFO  BaseTest:20 - Valid Login Test Case is Passed
+08.10.2024 01:15:45,023 INFO  BaseTest:36 - Chrome is shutting down.... 
+08.10.2024 01:15:45,024 INFO  BaseTest:37 - -----------------------------
+08.10.2024 01:26:24,508 INFO  Setup:23 - Running Chrome Setup.....
+08.10.2024 01:26:25,283 INFO  LoginPage:31 - The Username is: null
+08.10.2024 01:26:25,419 INFO  LoginPage:36 - The Password is: 123123
+08.10.2024 01:26:26,233 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 01:26:26,254 INFO  Setup:36 - Invalid Login Test Case is Passed
+08.10.2024 01:26:26,645 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 01:26:27,848 INFO  LoginPage:31 - The Username is: Admin
+08.10.2024 01:26:28,015 INFO  LoginPage:36 - The Password is: admin123
+08.10.2024 01:26:28,086 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 01:26:29,377 INFO  Setup:30 - Chrome is shutting down.... 
+08.10.2024 01:26:29,378 INFO  Setup:31 - -----------------------------
+08.10.2024 01:29:02,209 INFO  Setup:23 - Running Chrome Setup.....
+08.10.2024 01:29:03,181 INFO  LoginPage:31 - The Username is: null
+08.10.2024 01:29:03,314 INFO  LoginPage:36 - The Password is: 123123
+08.10.2024 01:29:04,169 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 01:29:04,194 INFO  Setup:37 - Invalid Login Test Case is Passed
+08.10.2024 01:29:04,580 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 01:29:06,859 INFO  LoginPage:31 - The Username is: Admin
+08.10.2024 01:29:07,078 INFO  LoginPage:36 - The Password is: admin123
+08.10.2024 01:29:07,175 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 01:29:08,514 INFO  Setup:30 - Chrome is shutting down.... 
+08.10.2024 01:29:08,514 INFO  Setup:31 - -----------------------------
+08.10.2024 01:29:26,228 INFO  Setup:23 - Running Chrome Setup.....
+08.10.2024 01:29:27,198 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 01:29:28,516 INFO  Setup:30 - Chrome is shutting down.... 
+08.10.2024 01:29:28,517 INFO  Setup:31 - -----------------------------
+08.10.2024 01:35:37,548 INFO  Setup:23 - Running Chrome Setup.....
+08.10.2024 01:35:38,324 INFO  LoginPage:31 - The Username is: null
+08.10.2024 01:35:38,478 INFO  LoginPage:36 - The Password is: 123123
+08.10.2024 01:35:39,305 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 01:35:39,333 INFO  Setup:37 - Invalid Login Test Case is Passed
+08.10.2024 01:35:39,699 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 01:35:39,717 INFO  Setup:45 - Blank Login Test Case is Passed
+08.10.2024 01:35:40,993 INFO  LoginPage:31 - The Username is: Admin
+08.10.2024 01:35:41,241 INFO  LoginPage:36 - The Password is: admin123
+08.10.2024 01:35:41,347 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 01:35:42,357 INFO  Setup:27 - Valid Login Test Case is Passed
+08.10.2024 01:35:42,693 INFO  Setup:30 - Chrome is shutting down.... 
+08.10.2024 01:35:42,694 INFO  Setup:31 - -----------------------------
+08.10.2024 01:37:26,588 INFO  Setup:23 - Running Chrome Setup.....
+08.10.2024 01:37:27,339 INFO  LoginPage:31 - The Username is: null
+08.10.2024 01:37:27,465 INFO  LoginPage:36 - The Password is: 123123
+08.10.2024 01:37:28,306 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 01:37:28,331 INFO  Setup:37 - The Username is Empty
+08.10.2024 01:37:28,332 INFO  Setup:38 - The Password is Empty
+08.10.2024 01:37:28,333 INFO  Setup:39 - Invalid Login Test Case is Passed
+08.10.2024 01:37:28,703 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 01:37:28,723 INFO  Setup:47 - Blank Login Test Case is Passed
+08.10.2024 01:37:29,845 INFO  LoginPage:31 - The Username is: Admin
+08.10.2024 01:37:30,028 INFO  LoginPage:36 - The Password is: admin123
+08.10.2024 01:37:30,093 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 01:37:31,089 INFO  Setup:27 - Valid Login Test Case is Passed
+08.10.2024 01:37:31,361 INFO  Setup:30 - Chrome is shutting down.... 
+08.10.2024 01:37:31,361 INFO  Setup:31 - -----------------------------
+08.10.2024 01:38:31,637 INFO  Setup:23 - Running Chrome Setup.....
+08.10.2024 01:38:33,011 INFO  LoginPage:31 - The Username is: null
+08.10.2024 01:38:33,143 INFO  LoginPage:36 - The Password is: 123123
+08.10.2024 01:38:33,987 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 01:38:34,006 INFO  Setup:37 - Invalid Login Test Case is Passed
+08.10.2024 01:38:34,404 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 01:38:34,423 INFO  Setup:45 - The Username is Empty
+08.10.2024 01:38:34,424 INFO  Setup:46 - The Password is Empty
+08.10.2024 01:38:34,425 INFO  Setup:47 - Blank Login Test Case is Passed
+08.10.2024 01:38:35,605 INFO  LoginPage:31 - The Username is: Admin
+08.10.2024 01:38:35,836 INFO  LoginPage:36 - The Password is: admin123
+08.10.2024 01:38:35,958 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 01:38:37,030 INFO  Setup:27 - Valid Login Test Case is Passed
+08.10.2024 01:38:37,332 INFO  Setup:30 - Chrome is shutting down.... 
+08.10.2024 01:38:37,333 INFO  Setup:31 - -----------------------------
+08.10.2024 01:44:38,906 INFO  Setup:23 - Running Chrome Setup.....
+08.10.2024 01:44:39,684 INFO  LoginPage:31 - The Username is: null
+08.10.2024 01:44:39,816 INFO  LoginPage:36 - The Password is: 123123
+08.10.2024 01:44:40,671 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 01:44:40,692 INFO  Setup:37 - Invalid Login Test Case is Passed
+08.10.2024 01:44:41,091 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 01:44:41,113 INFO  Setup:45 - The Username is Empty
+08.10.2024 01:44:41,115 INFO  Setup:46 - The Password is Empty
+08.10.2024 01:44:41,116 INFO  Setup:47 - Blank Login Test Case is Passed
+08.10.2024 01:44:42,149 INFO  LoginPage:31 - The Username is: Admin
+08.10.2024 01:44:42,334 INFO  LoginPage:36 - The Password is: admin123
+08.10.2024 01:44:42,413 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 01:44:43,474 INFO  Setup:27 - Valid Login Test Case is Passed
+08.10.2024 01:44:43,888 INFO  Setup:30 - Chrome is shutting down.... 
+08.10.2024 01:44:43,889 INFO  Setup:31 - -----------------------------
+08.10.2024 16:17:45,608 INFO  Setup:23 - Running Chrome Setup.....
+08.10.2024 16:17:46,377 INFO  LoginPage:31 - The Username is: null
+08.10.2024 16:17:46,551 INFO  LoginPage:36 - The Password is: 123123
+08.10.2024 16:17:47,575 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 16:17:47,605 INFO  Setup:37 - Invalid Login Test Case is Passed
+08.10.2024 16:17:48,024 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 16:17:48,050 INFO  Setup:45 - The Username is Empty
+08.10.2024 16:17:48,050 INFO  Setup:46 - The Password is Empty
+08.10.2024 16:17:48,051 INFO  Setup:47 - Blank Login Test Case is Passed
+08.10.2024 16:17:49,191 INFO  LoginPage:31 - The Username is: Admin
+08.10.2024 16:17:49,357 INFO  LoginPage:36 - The Password is: admin123
+08.10.2024 16:17:49,435 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 16:17:50,463 INFO  Setup:27 - Valid Login Test Case is Passed
+08.10.2024 16:17:50,761 INFO  Setup:30 - Chrome is shutting down.... 
+08.10.2024 16:17:50,762 INFO  Setup:31 - -----------------------------
+08.10.2024 19:26:58,843 INFO  Setup:23 - Chrome is starting.....
+08.10.2024 19:26:59,569 INFO  LoginPage:31 - The Username is: null
+08.10.2024 19:26:59,683 INFO  LoginPage:36 - The Password is: 123123
+08.10.2024 19:27:00,535 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 19:27:00,559 INFO  Setup:36 - Invalid Login Test Case is Passed
+08.10.2024 19:27:00,939 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 19:27:00,956 INFO  Setup:44 - The Username is Empty
+08.10.2024 19:27:00,956 INFO  Setup:45 - The Password is Empty
+08.10.2024 19:27:00,957 INFO  Setup:46 - Blank Login Test Case is Passed
+08.10.2024 19:27:01,085 INFO  LoginPage:31 - The Username is: Admin
+08.10.2024 19:27:01,197 INFO  LoginPage:36 - The Password is: admin123
+08.10.2024 19:27:01,263 INFO  LoginPage:41 - The Login Button is Click
+08.10.2024 19:27:02,291 INFO  Setup:26 - Valid Login Test Case is Passed
+08.10.2024 19:27:02,556 INFO  Setup:30 - Chrome is shutting down.... 

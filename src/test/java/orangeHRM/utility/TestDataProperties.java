@@ -9,7 +9,7 @@ public class TestDataProperties {
 	
 	public static String propertiesUtility(String Key) throws IOException {
 		
-		File file = new File("C:\\Users\\benis\\Desktop\\testData\\TestData.properties");
+		File file = new File("src/test/resources/testData/TestData.properties");
 		FileReader reader = new FileReader(file);
 		Properties properties = new Properties();
 		properties.load(reader);

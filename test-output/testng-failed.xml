@@ -5,11 +5,9 @@
     <classes>
       <class name="orangeHRM.test.LoginTest">
         <methods>
-          <include name="InvalidLogin"/>
-          <include name="setup"/>
           <include name="teardown"/>
           <include name="EmptyCredentialsLogin"/>
-          <include name="ValidLogin"/>
+          <include name="setup"/>
         </methods>
       </class> <!-- orangeHRM.test.LoginTest -->
     </classes>
