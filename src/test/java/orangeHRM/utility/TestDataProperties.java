@@ -5,11 +5,13 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Properties;
 
+import orangeHRM.constant.Constants;
+
 public class TestDataProperties {
 	
 	public static String propertiesUtility(String Key) throws IOException {
 		
-		File file = new File("src/test/resources/testData/TestData.properties");
+		File file = new File(Constants.PATH);
 		FileReader reader = new FileReader(file);
 		Properties properties = new Properties();
 		properties.load(reader);
