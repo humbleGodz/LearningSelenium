@@ -7,9 +7,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterTest;
-import org.testng.annotations.BeforeTest;
-
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
 import orangeHRM.utility.TestDataProperties;
 
 public class Setup {
@@ -17,7 +16,7 @@ public class Setup {
 	protected WebDriver driver;
 	protected Logger log = LogManager.getLogger(Setup.class);
 
-	@BeforeTest
+	@BeforeClass
 	public void setup() throws IOException {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -26,7 +25,7 @@ public class Setup {
 		log.info("Chrome is starting.....");
 	}
 
-	@AfterTest(alwaysRun = true)
+	@AfterClass(alwaysRun = true)
 	public void teardown() {
 		if (driver != null) {
 			driver.quit();
