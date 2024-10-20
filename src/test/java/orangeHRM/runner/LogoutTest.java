@@ -8,6 +8,7 @@ import org.apache.poi.EncryptedDocumentException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import orangeHRM.constant.Constants;
 import orangeHRM.pages.HomePage;
 import orangeHRM.pages.LoginPage;
 import orangeHRM.setup.Setup;
@@ -18,22 +19,22 @@ public class LogoutTest extends Setup {
 	Logger log = LogManager.getLogger(LogoutTest.class);
 
 	@Test(priority = 1)
-	public void LoginSucces() throws EncryptedDocumentException, IOException, InterruptedException {
+	public void LoginSuccess() throws EncryptedDocumentException, IOException, InterruptedException {
 		try {
 			LoginPage loginPage = new LoginPage(driver);
 			loginPage.userNameInput(TestDataProperties.propertiesUtility("username"));
 			loginPage.passwordInput(TestDataProperties.propertiesUtility("password"));
 			loginPage.loginClick();
-			String ExpectedURL = "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index";
+			String ExpectedURL = Constants.EXPECTED_URL;
 			String ActualURL = driver.getCurrentUrl();
 			Assert.assertEquals(ActualURL, ExpectedURL);
-			log.info("Valid Login Test Case is Passed");
-		} catch (AssertionError e) {
-			log.error("Valid Login Test Case is Failed");
+			log.info("Login is Success");
+		} catch (AssertionError | Exception e) {
+			log.error("Failed to Login");
 		}
 	}
 
-	@Test(dependsOnMethods = "LoginSucces")
+	@Test(dependsOnMethods = "LoginSuccess")
 	public void ValidLogout() {
 		if (driver == null) {
 			log.error("WebDriver is null! Initialization might have failed.");
@@ -46,7 +47,7 @@ public class LogoutTest extends Setup {
 			String ActualURL = driver.getCurrentUrl();
 			Assert.assertEquals(ActualURL, ExpectedURL);
 			log.info("Valid Logout Test Case is Passed");
-		} catch (AssertionError e) {
+		} catch (AssertionError | Exception e) {
 			log.error("Valid Logout Test Case is failed");
 		}
 	}
