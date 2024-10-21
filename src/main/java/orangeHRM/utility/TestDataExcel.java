@@ -9,11 +9,13 @@ import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
 
+import orangeHRM.constant.Constants;
+
 public class TestDataExcel {
 
 	public static String excelUtility(int rowNumber, int cellNumber) throws EncryptedDocumentException, IOException {
 
-		File file = new File("C:\\Users\\benis\\Desktop\\testData\\TestData.xlsx");
+		File file = new File(Constants.PATH_EXCEL);
 		FileInputStream fis = new FileInputStream(file);
 		Workbook workbook = WorkbookFactory.create(fis);
 		Sheet sheet = workbook.getSheetAt(0);

@@ -13,10 +13,11 @@ public class Setup extends base {
 
 	@BeforeClass
 	public void setup() throws IOException {
-		initializerDriver("chrome");
+		String browser = TestDataProperties.globalpropertiesUtility("browser");
+		initializerDriver(browser);
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
-		driver.get(TestDataProperties.propertiesUtility("website"));
+		driver.get(TestDataProperties.globalpropertiesUtility("website"));
 
 	}
 

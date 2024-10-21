@@ -4,7 +4,9 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.safari.SafariDriver;
 
 public class base {
 
@@ -14,10 +16,13 @@ public class base {
 	public void initializerDriver(String browser) {
 		if (browser.equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();
-			log.info("Chrome is starting.....");
+			log.info("Chrome driver is starting.....");
 		} else if (browser.equalsIgnoreCase("firefox")) {
 			driver = new FirefoxDriver();
-			log.info("Firefox is starting.....");
+			log.info("Firefox driver is starting.....");
+		} else if (browser.equalsIgnoreCase("edge")) {
+			driver = new EdgeDriver();
+			log.info("Edge driver is starting.....");
 		}
 	}
 
