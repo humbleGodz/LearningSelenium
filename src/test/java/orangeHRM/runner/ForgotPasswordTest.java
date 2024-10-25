@@ -12,11 +12,10 @@ import orangeHRM.utility.TestDataProperties;
 
 public class ForgotPasswordTest extends Setup{
 	
-	ForgotPasswordPage forgot;
+	private ForgotPasswordPage forgot;
 	
 	@Test
 	public void ForgotPassword() throws IOException {
-		try {
 		forgot = new ForgotPasswordPage(driver);
 		forgot.resetPasswordBtn();
 		forgot.inputUserName(TestDataProperties.propertiesUtility("resetusername"));
@@ -24,10 +23,7 @@ public class ForgotPasswordTest extends Setup{
 		String expectedMsg = Constants.EXPECTED_MSG;
 		String actualMsg = forgot.successMassage();
 		Assert.assertEquals(actualMsg, expectedMsg);
-		log.info("Forgot Password Test Case Passed");
-		}
-		catch (AssertionError | Exception e) {
-			log.error("Forgot Password Test Case Failed");
+		
 		}
 	}
-}
+

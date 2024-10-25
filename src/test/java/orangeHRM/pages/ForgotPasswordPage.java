@@ -7,9 +7,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import orangeHRM.extentreport.ExtentReporter;
+
 public class ForgotPasswordPage {
 	WebDriver driver;
-	Logger log = LogManager.getLogger(ForgotPasswordPage.class);
+	private static final Logger log = LogManager.getLogger(ForgotPasswordPage.class);
+	private ExtentReporter report = new ExtentReporter();
 
 	@FindBy(xpath = "//p[@class='oxd-text oxd-text--p orangehrm-login-forgot-header']")
 	WebElement forgotpasswordbutton;
@@ -31,18 +34,21 @@ public class ForgotPasswordPage {
 	public void resetPasswordBtn() {
 		forgotpasswordbutton.click();
 		log.info("Reset Password is click");
+		report.info("Reset Password is click");
 	}
 
 	public void inputUserName(String resetusername) {
 		usernametextbox.sendKeys(resetusername);
 		log.info("Username is: " + resetusername);
+		report.info("Username is: " + resetusername);
 	}
 
 	public void resetButtonClick() {
 		resetbutton.click();
 		log.info("Reset Password Button is click");
+		report.info("Reset Password Button is click");
 	}
-	
+
 	public String successMassage() {
 		return succesmsg.getText();
 	}

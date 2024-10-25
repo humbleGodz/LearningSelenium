@@ -5,7 +5,7 @@ public abstract class Constants {
 	public final static String PATH = CURRENT_DIR + "/src/test/resources/testData/TestData.properties";
 	public final static String GLOBAL_ENVIROMENT = CURRENT_DIR + "/src/test/resources/testData/GlobalEnviroment.properties";
 	public final static String PATH_EXCEL = CURRENT_DIR + "/src/test/resources/testData/TestData.xlsx";
-
+	public final static String EXTENT_REPORT = CURRENT_DIR + "/reprort/extent-report.html";
 	// this for valid login
 	public final static String EXPECTED_URL = "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index";
 
